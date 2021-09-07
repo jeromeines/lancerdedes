@@ -1,0 +1,192 @@
+.container, .box, .text {
+    display: flex;
+}
+
+.block, .block1 {
+    box-shadow: 1px 3px 30px black,
+    1px 3px 30px black;
+    width: 50%;
+    height: 100vh;
+    border-radius: 10px;
+
+}
+
+.block {
+    background-color: transparent;
+
+}
+
+
+
+p {
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 70px;
+    color:violet;
+    text-shadow: 1px 3px 30px white,
+    1px 3px 5px black;
+    transition: 300ms;
+
+    position: relative;
+    top: 3vh;
+
+}
+
+p:hover {
+    font-family: 'ZCOOL KuaiLe', cursive;
+    text-shadow: 1px 3px 5px grey,
+    1px 3px 30px cornflowerblue;
+    transition: 300ms;
+
+}
+.subtitle:hover {
+    
+    font-size: 20px;
+   
+   
+}
+.header {
+    text-align: end;
+    position: relative;
+    right: 2vw;
+}
+
+.block1 {
+    background-color:transparent;   
+}
+
+.header2 {
+    text-align: start;
+}
+
+/******************/
+
+.player1, .player2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 150px;
+   /* background-color: rgb(175, 190, 218);*/
+   color:#f65599; 
+   text-shadow: 1px 3px 20px grey,
+   1px 3px 30px black,
+   1px 10px 30px black;
+
+   box-shadow: 1px 3px 20px grey,
+   1px 3px 30px black,
+   1px 10px 30px black;
+
+    background-image: url(image/330px-Whirpool_Galaxy.jpeg);
+    object-fit: cover;
+    background-size: cover;
+}
+
+
+
+.subtitle,.subtitle1{
+    font-size: 25px;
+    text-align: center;
+}
+
+.box{ 
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 5vh;
+
+}
+
+/********************/
+
+.tour1, .tour2 {
+    width: 70px;
+    height: 70px;
+   border-radius: 20px;
+
+   /* background-color: rgb(175, 190, 218);*/
+  
+
+   text-shadow: 1px 3px 20px grey,
+   1px 30px 30px white,
+   1px 3px 30px black,
+   1px 10px 30px black;
+
+   box-shadow: 1px 3px 20px grey,
+       1px 3px 30px black,
+       1px 10px 30px black;
+
+   
+
+    object-fit: cover;
+    background-size: cover;
+
+    position: relative;
+    top: 5vh;
+}
+
+
+
+.subtitle1 {
+    color: white;
+}
+
+/***********************/
+
+.text {
+    position: relative;
+    top: 38vh;
+
+    text-shadow: 1px 3px 20px crimson,
+   1px 30px 3px crimson,
+
+   
+   1px 10px 30px black;
+   
+    
+
+    font-size: 25px;
+    width: 100px;
+    height:50px;
+    
+  color: black;
+    
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+  }
+
+/*******************/
+.dé, .buttoncontent, .hold {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+
+    position: relative;
+    right:2.3vw;
+
+    bottom: 5vh;
+  
+}
+#dé-none {
+    display: none;
+}
+/**********************/
+
+.buttoncontent {
+    position: relative;
+   top: 2.5vh;
+   right: 3vw;
+
+   border-radius: 3px;   
+}
+
+.btn1{
+
+    position : relative; 
+    top: 12vh;
+    left: 1vw;
+    border-radius: 3px;    
+
+
+
+}
